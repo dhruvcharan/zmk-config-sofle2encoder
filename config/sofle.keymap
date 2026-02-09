@@ -57,10 +57,10 @@
 // |   [   | RFRSH| CUT| COPY | PASTE| HOME  |      |  |       | END   |  1    |  2    |  3   |   -   |   ]   |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&kp K_BACK    &kp EXCL  &kp AT    &kp HASH  &kp DLLR      &kp PRCNT                 &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR  &kp PG_UP
-&kp GRAVE     &trans    &kp UP    &trans    &kp K_REFRESH &trans                    &kp K_UNDO &kp N7    &kp N8    &kp N9    &kp N0    &kp PG_DN
+&kp C_AC_BACK    &kp EXCL  &kp AT    &kp HASH  &kp DLLR      &kp PRCNT                 &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR  &kp PG_UP
+&kp GRAVE     &trans    &kp UP    &trans    &kp C_AC_REFRESH &trans                    &kp C_AC_UNDO &kp N7    &kp N8    &kp N9    &kp N0    &kp PG_DN
 &kp DEL       &kp LEFT  &kp DOWN  &kp RIGHT &kp LC(F)     &kp LS(LBRC)              &kp LS(RBRC) &kp N4  &kp N5    &kp N6    &kp EQUAL &kp BSLH
-&kp LBKT      &kp K_REFRESH &kp K_CUT &kp K_COPY &kp K_PASTE &kp HOME &trans &trans &kp END &kp N1 &kp N2 &kp N3 &kp MINUS &kp RBKT
+&kp LBKT      &kp C_AC_REFRESH &kp C_AC_CUT &kp C_AC_COPY &kp C_AC_PASTE &kp HOME &trans &trans &kp END &kp N1 &kp N2 &kp N3 &kp MINUS &kp RBKT
                         &trans    &trans    &trans        &trans        &trans &trans &trans   &trans    &trans    &trans
             >;
 
@@ -77,9 +77,9 @@
 //               |     |      |      |      |      |  |      |      |       |       |      |
             bindings = <
 &kp F12        &kp F1    &kp F2    &kp F3    &kp F4    &kp F5                        &kp F6    &kp F7    &kp F8    &kp F9    &kp F10   &kp F11
-&rgb_ug RGB_TOG &kp EXCL  &kp UP    &kp HASH  &kp DLLR  &kp PRCNT                     &kp K_CALC &kp RPAR &kp ASTRK &kp LPAR &kp CARET &rgb_ug RGB_EFF
-&trans         &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_UP &kp LS(MINUS)                 &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_VAI &rgb_ug RGB_VAI &kp BSLH &trans
-&trans         &kp C_STOP &kp C_PP &kp C_VOL_DN &kp PG_DN &kp MINUS  &trans &trans   &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_VAD &kp K_SEARCH &kp EQUAL &kp HOME
+&rgb_ug RGB_TOG &kp EXCL  &kp UP    &kp HASH  &kp DLLR  &kp PRCNT                     &kp C_AL_CALC &kp RPAR &kp ASTRK &kp LPAR &kp CARET &rgb_ug RGB_EFF
+&trans         &kp LEFT  &kp DOWN  &kp RIGHT &kp PG_UP &kp LS(MINUS)                 &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_BRI &kp BSLH &trans
+&trans         &kp C_STOP &kp C_PP &kp C_VOL_DN &kp PG_DN &kp MINUS  &trans &trans   &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &kp C_AC_SEARCH &kp EQUAL &kp HOME
                          &trans    &trans    &trans    &trans    &trans       &trans &trans    &trans    &trans    &trans
             >;
 
